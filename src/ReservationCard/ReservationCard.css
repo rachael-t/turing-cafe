@@ -1,26 +1,27 @@
 .reservation-card {
-    align-items: center;
-    background-color: white;
-    border: solid 5px teal;
-    border-radius: 5px;
-    color: teal;
-    display: flex;
-    flex-direction: column;
-    height: 180px;
-    justify-content: space-between;
-    margin: 1%;
-    padding: 1%;
-    width: 180px;
-  }
+  align-items: center;
+  background-color: white;
+  border: solid 5px teal;
+  border-radius: 5px;
+  color: teal;
+  display: flex;
+  flex-direction: column;
+  height: 180px;
+  justify-content: space-between;
+  margin: 1%;
+  padding: 1%;
+  width: 180px;
+}
 
-  h3, p {
-      margin: 0px;
-  }
-  
-  button {
-      background-color: teal;
-      border-radius: 5px;
-      color: white;
-      width: 150px;
-      height: 20px;
-  }
+h3,
+p {
+  margin: 0px;
+}
+
+button {
+  background-color: teal;
+  border-radius: 5px;
+  color: white;
+  width: 150px;
+  height: 20px;
+}
