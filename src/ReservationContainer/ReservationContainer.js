@@ -9,7 +9,7 @@ const ReservationContainer = ({ reservations }) => {
 
     return (
         <div className='reservation-container'>
-            <h2>Current Reservations:</h2>
+            {/* <h2>Current Reservations:</h2> */}
             {reservationsToRender}
         </div>
     )
