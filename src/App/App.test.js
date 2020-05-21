@@ -4,6 +4,18 @@ import { render, waitFor, fireEvent } from '@testing-library/react';
 import '@testing-library/jest-dom';
 
 describe('App', () => {
+  it('should display saved reservations', async () => {
+    const { getByText } = render(<App />);
+
+    const header = getByText('Turing Cafe Reservations');
+    const submitBtn =  getByText('Make Reservation');
+    const savedName = await waitFor(() => getByText('Christie'));
+
+    expect(header).toBeInTheDocument();
+    expect(submitBtn).toBeInTheDocument();
+    expect(savedName).toBeInTheDocument();
+  });
+
   it('should display a reservation on the page once a user submits it', () => {
     const { getByText, getByPlaceholderText } = render(<App />);
 
