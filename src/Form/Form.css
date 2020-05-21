@@ -1,0 +1,13 @@
+form {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+input, .submit-button {
+    border-radius: 5px;
+    font-weight: bolder;
+    height: 25px;
+    margin: 4%;
+    width: 300px;
+}
