@@ -9,8 +9,10 @@ const ReservationContainer = ({ reservations }) => {
 
   return (
     <div className="reservation-container">
-      {/* <h2>Current Reservations:</h2> */}
-      {reservationsToRender}
+      <h2>Current Reservations:</h2>
+      <div className="reservation-card-container">
+        {reservationsToRender}
+      </div>
     </div>
   );
 };
