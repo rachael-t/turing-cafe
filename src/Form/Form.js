@@ -47,12 +47,12 @@ class Form extends Component {
                 />
                  <input
                     type='text'
-                    placeholder='Number of guest'
+                    placeholder='Number of guests'
                     name='number'
                     value={this.state.number}
                     onChange={this.handleChange}
                 />
-                <button onClick={this.submitReservation}>
+                <button className='submit-button' onClick={this.submitReservation}>
                     Make Reservation
                 </button>
             </form>
